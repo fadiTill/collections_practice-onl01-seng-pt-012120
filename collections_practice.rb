@@ -56,10 +56,10 @@ def swap_elements(array)
 
 
   def find_a(array)
-    start_with? = []
+    start_with = []
     array.select { |element|
     element[0].include? ("a")}
-    start_with? << element
+    start_with << element
   end
-  start_with?
+  start_with
 end
