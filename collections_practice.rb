@@ -62,5 +62,3 @@ def swap_elements(array)
     start_with << element
     start_with
 end
-
-
