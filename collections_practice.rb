@@ -60,6 +60,6 @@ def swap_elements(array)
     array.select { |element|
     element[0].include?("a")}
     start_with << element
-  end
+  
   start_with
 end
