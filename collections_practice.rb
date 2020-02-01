@@ -52,3 +52,14 @@ def swap_elements(array)
     end
     new_array
   end
+
+
+
+  def find_a(array)
+    start_with = []
+    array.find |element|
+    element "a"
+    start_with? << element
+  end
+  start_with
+end
