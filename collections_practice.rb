@@ -58,7 +58,7 @@ def swap_elements(array)
   def find_a(array)
     start_with? = []
     array.find { |element|
-    element.first ("a")}
+    element[0].include? ("a")}
     start_with? << element
   end
   start_with?
