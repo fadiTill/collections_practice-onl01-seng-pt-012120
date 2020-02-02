@@ -55,15 +55,12 @@ def swap_elements(array)
 
 
 
-  def find_a(array)
-    start_with =[]
-    array.find_all { |element|
-    element.start_with?("a")}
-    start_with << element
-    start_with
-end
+  
 
 def find_a(array)
     array.find_all { |element|
     element.start_with?("a")}
 end
+
+
+
