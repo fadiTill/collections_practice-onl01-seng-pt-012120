@@ -68,7 +68,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-   element != array[2]
+   array != array[2]
    array.map do |element|
     element + ("s")
   end
