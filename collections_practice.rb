@@ -71,7 +71,7 @@ def add_s(array)
   if array != array[2]
    array.map do |element|
     element+("s")
-  else feet
+  else element
   end
 end
 end
