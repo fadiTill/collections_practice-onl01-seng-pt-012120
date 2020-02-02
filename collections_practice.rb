@@ -67,4 +67,11 @@ def sum_array(array)
   array.sum
 end
 
-def dd_s
+def add_s(array)
+  array.add do |element|
+  if element= array[2]
+    element
+  else
+    element+"s"
+  end
+end
