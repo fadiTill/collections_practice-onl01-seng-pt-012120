@@ -68,4 +68,10 @@ def sum_array(array)
 end
 
 def add_s(array)
-  
+  if element = array[2]
+    puts element
+  else array.map do |element| 
+    element + "s"
+  end 
+end 
+end
