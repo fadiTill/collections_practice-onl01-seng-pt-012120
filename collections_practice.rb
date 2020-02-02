@@ -62,3 +62,8 @@ def swap_elements(array)
     start_with << element
     start_with
 end
+
+def find_a(array)
+    array.find_all { |element|
+    element.start_with?("a")}
+end
