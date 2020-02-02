@@ -71,6 +71,6 @@ def add_s(array)
   if element != array[2]
    array.map do |element|
     element + "s"
-  else element
+  else element =array [2]
   end
 end
