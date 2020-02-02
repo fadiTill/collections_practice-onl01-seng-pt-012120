@@ -70,6 +70,6 @@ end
 def add_s(array)
    array != array[2]
    array.map do |element|
-    element("s")
+    element+("s")
   end
 end
